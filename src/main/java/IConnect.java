@@ -1,3 +1,3 @@
-public interface IConnect extends IRadio, ICDPlayer, IRecordPlayer {
-
+public interface IConnect{
+        public String connect(String stereoName);
 }
