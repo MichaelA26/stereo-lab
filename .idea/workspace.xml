@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ebf315e-96b5-4700-8531-792ac2a44594" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IRadio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RadioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ICDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IRecordPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RecordPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CDPlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stereo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IConnect.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CDPlayerTest.canPlay">
     <configuration name="All in StereoLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StereoLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,8 +57,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CDPlayerTest.canPlay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StereoLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CDPlayerTest" />
+      <option name="METHOD_NAME" value="canPlay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CDPlayerTest.canPlay" />
         <item itemvalue="JUnit.All in StereoLab" />
       </list>
     </recent_temporary>

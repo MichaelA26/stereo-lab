@@ -1,4 +1,3 @@
-public interface IConnect {
+public interface IConnect extends IRadio, ICDPlayer, IRecordPlayer {
 
-    public String tuneStation(String name);
 }
