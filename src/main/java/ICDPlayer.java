@@ -1,5 +1,5 @@
 public interface ICDPlayer {
 
-    public void String playSong(String song);
+     void playSong(String song);
 
 }

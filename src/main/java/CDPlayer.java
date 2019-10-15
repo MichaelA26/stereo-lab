@@ -1,11 +1,12 @@
 public class CDPlayer extends Component implements ICDPlayer {
 
 
-    public String playSong(String song){
-        return this.name = song;
+    public void playSong(String song)
+    {
+         this.name = song;
     }
 
-    public String getSong(String song){
+    public String getSong(){
         return this.name;
     }
 

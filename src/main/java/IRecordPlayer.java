@@ -1,5 +1,5 @@
 public interface IRecordPlayer {
 
-    public void String playSong(String song);
+    public void playSong(String song);
 
 }
