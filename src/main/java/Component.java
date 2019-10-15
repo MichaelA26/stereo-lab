@@ -1,13 +1,12 @@
 public abstract class Component {
-    protected int volume;
+    protected String name;
 
     public Component(){
-        this.volume = 0;
+        this.name = "";
     }
 
-
-    public int getVolume(){
-        return volume;
+    public String getName(){
+        return name;
     }
-    
+
 }
